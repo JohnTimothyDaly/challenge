@@ -1,0 +1,18 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc index.ts",
+    "clean": "rm index.js",
+    "script": "node index.js",
+    "build-and-run": "rm index.js; npx tsc index.ts; node index.js"
+  },
+  "author": "John T. Daly",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
